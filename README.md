@@ -1,2 +1,2 @@
 # botVK
-example bot VK
+example bot VK / пример бота для ВКонтакте
