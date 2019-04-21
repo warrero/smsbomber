@@ -15,7 +15,7 @@ while True:
         if messages["count"] >= 1: # если сообщений больше или равно 1, то выполняется условие
 		id = messages["items"][0]["last_message"]["from_id"]
 		body = messages["items"][0]["last_message"]["text"]
-
+		#принимает на нижнем регистре
 		if body.lower() == "привет" or body.lower() == 'здарова':
 		   vk.method("messages.send", {"peer_id": id, "message": "Привет!"})
 		elif body.lower() == 'пока':
